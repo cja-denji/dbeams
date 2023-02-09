@@ -1,0 +1,122 @@
+{
+  "users": [
+    {
+      "user_id": 1,
+      "fname": "John",
+      "lname": "Doe",
+      "email": "jd@dealogikal.com",
+      "password": "admin.1234",
+      "usertype": "admin"
+    },
+    {
+      "user_id": 2,
+      "fname": "JR",
+      "lname": "Smith",
+      "email": "jrs@dealogikal.com",
+      "password": "admin.1234",
+      "usertype": "admin"
+    },
+    {
+      "user_id": 3,
+      "fname": "Anna",
+      "lname": "Hance",
+      "email": "ah@dealogikal.com",
+      "password": "employee.1234",
+      "usertype": "employee"
+    },
+    {
+      "user_id": 4,
+      "fname": "Klowee",
+      "lname": "Heyer",
+      "email": "kh@dealogikal.com",
+      "password": "employee.1234",
+      "usertype": "employee"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "comment 1",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "comment 2",
+      "postId": 1
+    }
+  ],
+  "__tblaccomplishments": [
+    {
+      "accomplishment_id": 1,
+      "title": "Adding user account functionality.",
+      "desc": "I am adding new user account functionality. scription of the Accomplishment number 1",
+      "date": "02-08-2023",
+      "user_id": 1,
+      "status": "draft"
+    },
+    {
+      "accomplishment_id": 2,
+      "title": "Creating the landing page.",
+      "desc": "Started developing the landing page of the website. this is a sample description of the Accomplishment number 2",
+      "date": "02-07-2023",
+      "user_id": 1,
+      "status": "submitted"
+    },
+    {
+      "accomplishment_id": 3,
+      "title": "Finalizing the general ui theme.",
+      "desc": "Creating the final general ui theme for the development. shment number 3",
+      "date": "02-06-2023",
+      "user_id": 1,
+      "status": "submitted"
+    },
+    {
+      "accomplishment_id": 4,
+      "title": "Creating a mobile app layout using Adobe XD for the company app.",
+      "desc": "Creating the layout of the mobile app. this is a sample description of the Accomplishment number 3",
+      "date": "02-09-2023",
+      "user_id": 2,
+      "status": "submitted"
+    },
+    {
+      "accomplishment_id": 5,
+      "title": "Ressetting all the user accounts.",
+      "desc": "I am resseting all the user accounts of the platform. ample description of the Accomplishment number 3",
+      "date": "02-09-2023",
+      "user_id": 2,
+      "status": "draft"
+    },
+    {
+      "accomplishment_id": 6,
+      "title": "Polishing the backend and api endpoints.",
+      "desc": "Inspecting some possible error for the Rest API endpoints. this is a sample description of the Accomplishment number 3",
+      "date": "02-09-2023",
+      "user_id": 2,
+      "status": "submitted"
+    },
+    {
+      "accomplishment_id": 7,
+      "title": "Adding the update account functionality.",
+      "desc": "Added the update functionality of the company portal. is a sample description of the Accomplishment number 3",
+      "date": "02-09-2023",
+      "user_id": 3,
+      "status": "submitted"
+    },
+    {
+      "accomplishment_id": 8,
+      "title": "Fixing the datatable bug.",
+      "desc": "Fixed the backedn bug. cription of the Accomplishment number 3",
+      "date": "02-09-2023",
+      "user_id": 3,
+      "status": "draft"
+    },
+    {
+      "accomplishment_id": 9,
+      "title": "Fixing the database relationship data integrity.",
+      "desc": "Fixed the data integrity problem of the database.s is a sample description of the Accomplishment number 3",
+      "date": "02-09-2023",
+      "user_id": 3,
+      "status": "submitted"
+    }
+  ]
+}
